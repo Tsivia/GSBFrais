@@ -1088,6 +1088,7 @@ body {
   color: #333;
   background-color: #fff;
 }
+
 input,
 button,
 select,
@@ -5483,6 +5484,7 @@ button.list-group-item-danger.active:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
+
 .panel-body {
   padding: 15px;
 }
@@ -5778,11 +5780,23 @@ button.list-group-item-danger.active:focus {
 .panel-info {
   border-color: #bce8f1;
 }
+
+.panel-info1 {
+  border-color: #ffa500;
+}
+
 .panel-info > .panel-heading {
   color: #31708f;
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
+
+.panel-info1 > .panel-heading {
+  color: #ffa500;
+  background-color: #ffa500;
+  border-color: #ffa500;
+}
+
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;
 }
